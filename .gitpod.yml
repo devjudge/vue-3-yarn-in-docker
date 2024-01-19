@@ -19,7 +19,7 @@ tasks:
           bash verify_connection_url.sh 8080 WEB_MICRO_PROJECT && sleep 1 && exit
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
-  - port: 4200
+  - port: 8080
     name: "Frontend Server"
     onOpen: open-preview
     visibility: public
